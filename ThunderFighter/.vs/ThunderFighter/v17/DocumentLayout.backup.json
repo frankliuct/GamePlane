@@ -1,0 +1,50 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u5927\u56DB\u4E0A\\\u7F51\u7EDC\u5E94\u7528\u7F16\u7A0B\\FinalProject\\ThunderFighter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C06B7403-65CB-4A54-A6F2-4B176A358C97}|ThunderFighter.csproj|d:\\\u5927\u56DB\u4E0A\\\u7F51\u7EDC\u5E94\u7528\u7F16\u7A0B\\finalproject\\thunderfighter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C06B7403-65CB-4A54-A6F2-4B176A358C97}|ThunderFighter.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 346,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\\u5927\u56DB\u4E0A\\\u7F51\u7EDC\u5E94\u7528\u7F16\u7A0B\\FinalProject\\ThunderFighter\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\\u5927\u56DB\u4E0A\\\u7F51\u7EDC\u5E94\u7528\u7F16\u7A0B\\FinalProject\\ThunderFighter\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T02:54:01.09Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 12,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
