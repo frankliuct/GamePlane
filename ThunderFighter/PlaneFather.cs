@@ -15,7 +15,7 @@ namespace ThunderFighter
         }
 
 
-/*        public abstract void Fire();
-        public abstract void IsOver();*/
+        public abstract void Fire();
+        //public abstract void IsOver();
     }
 }

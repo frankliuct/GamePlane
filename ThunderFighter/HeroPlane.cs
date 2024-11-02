@@ -21,6 +21,20 @@ namespace ThunderFighter
             //g.DrawImage(imgHero, this.X, this.Y);
         }
 
+        public void MouseDownLeft(MouseEventArgs e)
+        {
+            //玩家按鼠标左键发射子弹
+            if (e.Button == System.Windows.Forms.MouseButtons.Left)
+            {
+                Fire();
+            }
+        }
+        public override void Fire()
+        {
+            //玩家发射子弹
+            SingleObject.GetSingle().AddGameObject(new HeroZiDan(this, 20, 1));
+        }
+
         public override void MoveToBorder()
         {
             if(this.X <= 0)

@@ -35,7 +35,7 @@
             // timer1
             // 
             timer1.Enabled = true;
-            timer1.Interval = 45;
+            timer1.Interval = 50;
             timer1.Tick += timer1_Tick;
             // 
             // Form1
@@ -50,6 +50,7 @@
             Text = "Form1";
             Load += Form1_Load;
             Paint += Form1_Paint;
+            MouseDown += Form1_MouseDown;
             MouseMove += Form1_MouseMove;
             ResumeLayout(false);
         }

@@ -17,3 +17,8 @@ D:\大四上\网络应用编程\FinalProject\ThunderFighter\obj\Debug\net8.0-win
 D:\大四上\网络应用编程\FinalProject\ThunderFighter\obj\Debug\net8.0-windows\ref\ThunderFighter.dll
 D:\大四上\网络应用编程\FinalProject\ThunderFighter\bin\Debug\net8.0-windows\Resources\background.png
 D:\大四上\网络应用编程\FinalProject\ThunderFighter\bin\Debug\net8.0-windows\Resources\hero1.png
+D:\大四上\网络应用编程\FinalProject\ThunderFighter\bin\Debug\net8.0-windows\Resources\enemy0.png
+D:\大四上\网络应用编程\FinalProject\ThunderFighter\bin\Debug\net8.0-windows\Resources\enemy1.png
+D:\大四上\网络应用编程\FinalProject\ThunderFighter\bin\Debug\net8.0-windows\Resources\enemy2.png
+D:\大四上\网络应用编程\FinalProject\ThunderFighter\bin\Debug\net8.0-windows\Resources\bullet.png
+D:\大四上\网络应用编程\FinalProject\ThunderFighter\bin\Debug\net8.0-windows\Resources\bullet1.png
