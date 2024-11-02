@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{C06B7403-65CB-4A54-A6F2-4B176A358C97}|ThunderFighter.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C06B7403-65CB-4A54-A6F2-4B176A358C97}|ThunderFighter.csproj|d:\\\u5927\u56DB\u4E0A\\\u7F51\u7EDC\u5E94\u7528\u7F16\u7A0B\\finalproject\\thunderfighter\\singleobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C06B7403-65CB-4A54-A6F2-4B176A358C97}|ThunderFighter.csproj|solutionrelative:singleobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C06B7403-65CB-4A54-A6F2-4B176A358C97}|ThunderFighter.csproj|d:\\\u5927\u56DB\u4E0A\\\u7F51\u7EDC\u5E94\u7528\u7F16\u7A0B\\finalproject\\thunderfighter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C06B7403-65CB-4A54-A6F2-4B176A358C97}|ThunderFighter.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C06B7403-65CB-4A54-A6F2-4B176A358C97}|ThunderFighter.csproj|d:\\\u5927\u56DB\u4E0A\\\u7F51\u7EDC\u5E94\u7528\u7F16\u7A0B\\finalproject\\thunderfighter\\background.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{C06B7403-65CB-4A54-A6F2-4B176A358C97}|ThunderFighter.csproj|d:\\\u5927\u56DB\u4E0A\\\u7F51\u7EDC\u5E94\u7528\u7F16\u7A0B\\finalproject\\thunderfighter\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C06B7403-65CB-4A54-A6F2-4B176A358C97}|ThunderFighter.csproj|solutionrelative:gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C06B7403-65CB-4A54-A6F2-4B176A358C97}|ThunderFighter.csproj|d:\\\u5927\u56DB\u4E0A\\\u7F51\u7EDC\u5E94\u7528\u7F16\u7A0B\\finalproject\\thunderfighter\\singleobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C06B7403-65CB-4A54-A6F2-4B176A358C97}|ThunderFighter.csproj|solutionrelative:singleobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C06B7403-65CB-4A54-A6F2-4B176A358C97}|ThunderFighter.csproj|d:\\\u5927\u56DB\u4E0A\\\u7F51\u7EDC\u5E94\u7528\u7F16\u7A0B\\finalproject\\thunderfighter\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 346,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,14 +43,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SingleObject.cs",
-              "DocumentMoniker": "D:\\\u5927\u56DB\u4E0A\\\u7F51\u7EDC\u5E94\u7528\u7F16\u7A0B\\FinalProject\\ThunderFighter\\SingleObject.cs",
-              "RelativeDocumentMoniker": "SingleObject.cs",
-              "ToolTip": "D:\\\u5927\u56DB\u4E0A\\\u7F51\u7EDC\u5E94\u7528\u7F16\u7A0B\\FinalProject\\ThunderFighter\\SingleObject.cs",
-              "RelativeToolTip": "SingleObject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAAWAAAAAAAAAA==",
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\\u5927\u56DB\u4E0A\\\u7F51\u7EDC\u5E94\u7528\u7F16\u7A0B\\FinalProject\\ThunderFighter\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\\u5927\u56DB\u4E0A\\\u7F51\u7EDC\u5E94\u7528\u7F16\u7A0B\\FinalProject\\ThunderFighter\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAlwBgAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T02:56:38.597Z",
+              "WhenOpened": "2024-11-02T03:56:50.471Z",
               "EditorCaption": ""
             },
             {
@@ -57,35 +61,9 @@
               "RelativeDocumentMoniker": "Background.cs",
               "ToolTip": "D:\\\u5927\u56DB\u4E0A\\\u7F51\u7EDC\u5E94\u7528\u7F16\u7A0B\\FinalProject\\ThunderFighter\\Background.cs",
               "RelativeToolTip": "Background.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T02:56:23.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GameObject.cs",
-              "DocumentMoniker": "D:\\\u5927\u56DB\u4E0A\\\u7F51\u7EDC\u5E94\u7528\u7F16\u7A0B\\FinalProject\\ThunderFighter\\GameObject.cs",
-              "RelativeDocumentMoniker": "GameObject.cs",
-              "ToolTip": "D:\\\u5927\u56DB\u4E0A\\\u7F51\u7EDC\u5E94\u7528\u7F16\u7A0B\\FinalProject\\ThunderFighter\\GameObject.cs",
-              "RelativeToolTip": "GameObject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T02:56:01.682Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "D:\\\u5927\u56DB\u4E0A\\\u7F51\u7EDC\u5E94\u7528\u7F16\u7A0B\\FinalProject\\ThunderFighter\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "Form1.Designer.cs",
-              "ToolTip": "D:\\\u5927\u56DB\u4E0A\\\u7F51\u7EDC\u5E94\u7528\u7F16\u7A0B\\FinalProject\\ThunderFighter\\Form1.Designer.cs",
-              "RelativeToolTip": "Form1.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T02:54:42.953Z",
               "EditorCaption": ""
             },
             {
@@ -99,6 +77,45 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T02:54:01.09Z",
               "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SingleObject.cs",
+              "DocumentMoniker": "D:\\\u5927\u56DB\u4E0A\\\u7F51\u7EDC\u5E94\u7528\u7F16\u7A0B\\FinalProject\\ThunderFighter\\SingleObject.cs",
+              "RelativeDocumentMoniker": "SingleObject.cs",
+              "ToolTip": "D:\\\u5927\u56DB\u4E0A\\\u7F51\u7EDC\u5E94\u7528\u7F16\u7A0B\\FinalProject\\ThunderFighter\\SingleObject.cs",
+              "RelativeToolTip": "SingleObject.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T02:56:38.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\\u5927\u56DB\u4E0A\\\u7F51\u7EDC\u5E94\u7528\u7F16\u7A0B\\FinalProject\\ThunderFighter\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "D:\\\u5927\u56DB\u4E0A\\\u7F51\u7EDC\u5E94\u7528\u7F16\u7A0B\\FinalProject\\ThunderFighter\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T02:54:42.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameObject.cs",
+              "DocumentMoniker": "D:\\\u5927\u56DB\u4E0A\\\u7F51\u7EDC\u5E94\u7528\u7F16\u7A0B\\FinalProject\\ThunderFighter\\GameObject.cs",
+              "RelativeDocumentMoniker": "GameObject.cs",
+              "ToolTip": "D:\\\u5927\u56DB\u4E0A\\\u7F51\u7EDC\u5E94\u7528\u7F16\u7A0B\\FinalProject\\ThunderFighter\\GameObject.cs",
+              "RelativeToolTip": "GameObject.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T02:56:01.682Z",
+              "EditorCaption": ""
             }
           ]
         },

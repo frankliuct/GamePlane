@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ThunderFighter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b23f9854c02d3e9318135ed8902e8837eebadbf4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0dead5914345872a4c52d02a6b71b33a26f7f2b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ThunderFighter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ThunderFighter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

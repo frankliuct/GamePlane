@@ -25,7 +25,8 @@ namespace ThunderFighter
         public override void MoveToBorder()
         {
             this.Y += this.Speed;
-            if (this.Y == 0)
+            
+            if (this.Y >= 0)
             {
                 this.Y = -850;
             }
