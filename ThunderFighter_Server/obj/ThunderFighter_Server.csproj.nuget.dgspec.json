@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\klklklk\\Source\\Repos\\GamePlane\\ThunderFighter\\ThunderFighter.csproj": {}
+    "C:\\Users\\klklklk\\Source\\Repos\\GamePlane\\ThunderFighter_Server\\ThunderFighter_Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\klklklk\\Source\\Repos\\GamePlane\\ThunderFighter\\ThunderFighter.csproj": {
+    "C:\\Users\\klklklk\\Source\\Repos\\GamePlane\\ThunderFighter_Server\\ThunderFighter_Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\klklklk\\Source\\Repos\\GamePlane\\ThunderFighter\\ThunderFighter.csproj",
-        "projectName": "ThunderFighter",
-        "projectPath": "C:\\Users\\klklklk\\Source\\Repos\\GamePlane\\ThunderFighter\\ThunderFighter.csproj",
+        "projectUniqueName": "C:\\Users\\klklklk\\Source\\Repos\\GamePlane\\ThunderFighter_Server\\ThunderFighter_Server.csproj",
+        "projectName": "ThunderFighter_Server",
+        "projectPath": "C:\\Users\\klklklk\\Source\\Repos\\GamePlane\\ThunderFighter_Server\\ThunderFighter_Server.csproj",
         "packagesPath": "C:\\Users\\klklklk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\klklklk\\Source\\Repos\\GamePlane\\ThunderFighter\\obj\\",
+        "outputPath": "C:\\Users\\klklklk\\Source\\Repos\\GamePlane\\ThunderFighter_Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
