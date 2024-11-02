@@ -30,6 +30,9 @@
         {
             components = new System.ComponentModel.Container();
             timer1 = new System.Windows.Forms.Timer(components);
+            startGameBt = new Button();
+            portTextBox = new TextBox();
+            ipAddrTexBox = new TextBox();
             SuspendLayout();
             // 
             // timer1
@@ -38,14 +41,47 @@
             timer1.Interval = 50;
             timer1.Tick += timer1_Tick;
             // 
+            // startGameBt
+            // 
+            startGameBt.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            startGameBt.Location = new Point(131, 598);
+            startGameBt.Name = "startGameBt";
+            startGameBt.Size = new Size(97, 33);
+            startGameBt.TabIndex = 5;
+            startGameBt.Text = "开始游戏";
+            startGameBt.UseVisualStyleBackColor = true;
+            startGameBt.Click += startGameBt_Click;
+            // 
+            // portTextBox
+            // 
+            portTextBox.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            portTextBox.Location = new Point(252, 59);
+            portTextBox.Name = "portTextBox";
+            portTextBox.Size = new Size(100, 28);
+            portTextBox.TabIndex = 4;
+            portTextBox.Text = "23333";
+            // 
+            // ipAddrTexBox
+            // 
+            ipAddrTexBox.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            ipAddrTexBox.Location = new Point(45, 59);
+            ipAddrTexBox.Name = "ipAddrTexBox";
+            ipAddrTexBox.Size = new Size(201, 28);
+            ipAddrTexBox.TabIndex = 3;
+            ipAddrTexBox.Text = "127.0.0.1";
+            // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(9F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(462, 765);
+            ClientSize = new Size(361, 657);
+            Controls.Add(startGameBt);
+            Controls.Add(portTextBox);
+            Controls.Add(ipAddrTexBox);
             DoubleBuffered = true;
-            MaximumSize = new Size(480, 812);
-            MinimumSize = new Size(480, 812);
+            Margin = new Padding(2, 3, 2, 3);
+            MaximumSize = new Size(377, 696);
+            MinimumSize = new Size(377, 696);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
@@ -53,10 +89,14 @@
             MouseDown += Form1_MouseDown;
             MouseMove += Form1_MouseMove;
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private System.Windows.Forms.Timer timer1;
+        private Button startGameBt;
+        private TextBox portTextBox;
+        private TextBox ipAddrTexBox;
     }
 }

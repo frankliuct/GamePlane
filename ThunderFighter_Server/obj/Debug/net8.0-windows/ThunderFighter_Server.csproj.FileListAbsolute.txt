@@ -1,0 +1,17 @@
+C:\Users\klklklk\Source\Repos\GamePlane\ThunderFighter_Server\bin\Debug\net8.0-windows\ThunderFighter_Server.exe
+C:\Users\klklklk\Source\Repos\GamePlane\ThunderFighter_Server\bin\Debug\net8.0-windows\ThunderFighter_Server.deps.json
+C:\Users\klklklk\Source\Repos\GamePlane\ThunderFighter_Server\bin\Debug\net8.0-windows\ThunderFighter_Server.runtimeconfig.json
+C:\Users\klklklk\Source\Repos\GamePlane\ThunderFighter_Server\bin\Debug\net8.0-windows\ThunderFighter_Server.dll
+C:\Users\klklklk\Source\Repos\GamePlane\ThunderFighter_Server\bin\Debug\net8.0-windows\ThunderFighter_Server.pdb
+C:\Users\klklklk\Source\Repos\GamePlane\ThunderFighter_Server\obj\Debug\net8.0-windows\ThunderFighter_Server.ConsoleWindow.resources
+C:\Users\klklklk\Source\Repos\GamePlane\ThunderFighter_Server\obj\Debug\net8.0-windows\ThunderFighter_Server.csproj.GenerateResource.cache
+C:\Users\klklklk\Source\Repos\GamePlane\ThunderFighter_Server\obj\Debug\net8.0-windows\ThunderFighter_Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\klklklk\Source\Repos\GamePlane\ThunderFighter_Server\obj\Debug\net8.0-windows\ThunderFighter_Server.AssemblyInfoInputs.cache
+C:\Users\klklklk\Source\Repos\GamePlane\ThunderFighter_Server\obj\Debug\net8.0-windows\ThunderFighter_Server.AssemblyInfo.cs
+C:\Users\klklklk\Source\Repos\GamePlane\ThunderFighter_Server\obj\Debug\net8.0-windows\ThunderFighter_Server.csproj.CoreCompileInputs.cache
+C:\Users\klklklk\Source\Repos\GamePlane\ThunderFighter_Server\obj\Debug\net8.0-windows\ThunderFighter_Server.sourcelink.json
+C:\Users\klklklk\Source\Repos\GamePlane\ThunderFighter_Server\obj\Debug\net8.0-windows\ThunderFighter_Server.dll
+C:\Users\klklklk\Source\Repos\GamePlane\ThunderFighter_Server\obj\Debug\net8.0-windows\refint\ThunderFighter_Server.dll
+C:\Users\klklklk\Source\Repos\GamePlane\ThunderFighter_Server\obj\Debug\net8.0-windows\ThunderFighter_Server.pdb
+C:\Users\klklklk\Source\Repos\GamePlane\ThunderFighter_Server\obj\Debug\net8.0-windows\ThunderFighter_Server.genruntimeconfig.cache
+C:\Users\klklklk\Source\Repos\GamePlane\ThunderFighter_Server\obj\Debug\net8.0-windows\ref\ThunderFighter_Server.dll

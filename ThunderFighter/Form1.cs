@@ -1,3 +1,6 @@
+using System.Net.Sockets;
+using System.Net;
+
 namespace ThunderFighter
 {
     public partial class Form1 : Form
@@ -5,6 +8,7 @@ namespace ThunderFighter
         public Form1()
         {
             InitializeComponent();
+           
         }
         Random r = new Random();
         private void InitialGame()
@@ -15,8 +19,6 @@ namespace ThunderFighter
             //初始化玩家飞机
             SingleObject.GetSingle().AddGameObject(new HeroPlane(200, 200, 20, 1, Direction.Up));
 
-
-
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -24,11 +26,17 @@ namespace ThunderFighter
             InitialGame();
         }
 
+        bool isStart = false; //标记游戏是否开始
+
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
-            //绘制各种游戏对象
-            //背景，玩家飞机，子弹...
-            SingleObject.GetSingle().DrawGameObject(e.Graphics);
+            SingleObject.GetSingle().BG.Draw(e.Graphics);
+            if (isStart)
+            {
+                //绘制各种游戏对象
+                //背景，玩家飞机，子弹...
+                SingleObject.GetSingle().DrawGameObject(e.Graphics);
+            }
 
             string s = SingleObject.GetSingle().Score.ToString();
             //绘制游戏的分数
@@ -78,5 +86,41 @@ namespace ThunderFighter
             //玩家发射子弹
             SingleObject.GetSingle().HP.MouseDownLeft(e);
         }
+
+        Socket socket;
+
+        // 客户端连接服务器，开始游戏
+        private void startGameBt_Click(object sender, EventArgs e)
+        {
+            // 创建Socket
+            socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            // 获取IP地址和端口号
+            IPAddress ip = IPAddress.Parse(ipAddrTexBox.Text);
+            // 端口号
+            IPEndPoint point = new IPEndPoint(ip, int.Parse(portTextBox.Text));
+            // 连接到服务器
+            socket.Connect(point);
+
+            // 接收开始游戏的消息
+            Thread thread = new Thread(ReciveStartFlag);
+            thread.IsBackground = true; 
+            thread.Start();
+        }
+
+        // 不停接收开始游戏的消息
+        void ReciveStartFlag()
+        {
+            while (true)
+            {
+                byte[] buffer = new byte[1024 * 1024 * 5];
+                int flag = socket.Receive(buffer);
+                if (buffer[0] == 1)
+                {
+                    // 设置开始标志
+                    isStart = true;
+                }
+            }
+        }
+
     }
 }

@@ -108,7 +108,7 @@ namespace ThunderFighter
         public void DrawGameObject(Graphics g)
         {
             //把所有游戏对象绘制到窗体的Draw函数，都在这个函数中进行调用
-            this.BG.Draw(g);
+            // this.BG.Draw(g);
             this.HP.Draw(g);
             //将每一家飞机都绘制到窗体中
             for (int i = 0; i < listEnemyPlane.Count; i++)
