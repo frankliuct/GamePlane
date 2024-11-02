@@ -29,6 +29,11 @@ namespace ThunderFighter
             //绘制各种游戏对象
             //背景，玩家飞机，子弹...
             SingleObject.GetSingle().DrawGameObject(e.Graphics);
+
+            string s = SingleObject.GetSingle().Score.ToString();
+            //绘制游戏的分数
+            e.Graphics.DrawString(s, new Font("微软雅黑", 20, FontStyle.Bold), Brushes.Red,
+                new Point(0, 0));
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -42,6 +47,9 @@ namespace ThunderFighter
                 //再次重新初始化敌机数量
                 InitialEnemyPlane();
             }
+
+            //碰撞检测
+            SingleObject.GetSingle().PZJC();
         }
         private void InitialEnemyPlane()
         {

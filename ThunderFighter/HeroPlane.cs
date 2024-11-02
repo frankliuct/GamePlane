@@ -60,5 +60,11 @@ namespace ThunderFighter
             this.X = e.X;
             this.Y = e.Y;
         }
+
+        public override void IsOver()
+        {
+            //玩家死亡
+            SingleObject.GetSingle().AddGameObject(new HeroBoom(this.X, this.Y));
+        }
     }
 }

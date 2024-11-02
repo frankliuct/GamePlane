@@ -123,5 +123,18 @@ namespace ThunderFighter
                 this.Speed += 1;
             }*/
         }
+
+        public override void IsOver()
+        {
+            //敌人死亡
+            if(this.Life == 0)
+            {
+                //爆炸效果
+                SingleObject.GetSingle().AddGameObject(
+                    new EnemyBoom(this.X, this.Y,this.EnemyType) );
+                //移除敌机
+                SingleObject.GetSingle().RemoveGameObject(this);
+            }
+        }
     }
 }

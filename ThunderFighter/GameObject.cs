@@ -40,6 +40,11 @@ namespace ThunderFighter
             Dir = dir;
         }
 
+        public GameObject(int x,int y)
+        {
+            this.X = x;
+            this.Y = y;
+        }
         //游戏对象移动的方法
         public virtual void Move()
         {

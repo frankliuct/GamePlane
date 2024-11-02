@@ -16,6 +16,8 @@ namespace ThunderFighter
 
 
         public abstract void Fire();
-        //public abstract void IsOver();
+
+        //判断当前飞机是否死亡
+        public abstract void IsOver();
     }
 }
