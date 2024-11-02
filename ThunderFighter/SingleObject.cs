@@ -28,14 +28,21 @@ namespace ThunderFighter
         //在单例类中存储背景对象
         public Background BG { get; set; }
 
+        //玩家对象
+        public HeroPlane HP { get; set; }
+
         //写一个游戏对象，将游戏对象们添加进游戏场景中
         public void AddGameObject(GameObject go)
         {
-            if(go is Background)
+            if (go is Background)
             {
                 //如果传进来的参数是背景对象，则赋值给SinleObject类中BG属性
                 this.BG = go as Background;
 
+            }
+            else if (go is HeroPlane) { 
+                //传进来的是飞机
+                this.HP = go as HeroPlane;
             }
         }
 
@@ -43,6 +50,7 @@ namespace ThunderFighter
         {
             //把所有游戏对象绘制到窗体的Draw函数，都在这个函数中进行调用
             this.BG.Draw(g);
+            this.HP.Draw(g);
         }
     }
 }
