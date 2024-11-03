@@ -36,7 +36,7 @@ namespace ThunderFighter_Server
                 socket.Bind(point);
                 // 监听
                 socket.Listen(9);
-                AddLogMessage("------正在等待客户端与服务器连接------");
+                AddLogMessage("正在等待客户端与服务器连接");
 
                 Thread thread = new Thread(() => Listen(socket)); // 修改这里，确保传递的是创建的 socket
                 thread.IsBackground = true;
@@ -52,19 +52,30 @@ namespace ThunderFighter_Server
             }
         }
 
-        Dictionary<string, Socket> dictionScoket = new Dictionary<string, Socket>();
+        // 存储客户端socket
+        Dictionary<string, Socket> dictionSocket = new Dictionary<string, Socket>();
 
-        void Listen(Socket socketWatch)
+        // 存储客户端ip地址和分数
+        Dictionary<string, int> dictionScore = new Dictionary<string, int>();
+
+        // 接收客户端连接
+        void Listen(object o)
         {
+            Socket socketWatch = o as Socket;
             while (true)
             {
                 try
                 {
                     // 接受与客户端连接
                     Socket socketSend = socketWatch.Accept();
+                    string clientKey = socketSend.RemoteEndPoint.ToString();
                     // 将客户端的Socket存储在集合中
-                    dictionScoket.Add(socketSend.ToString(), socketSend);
-                    AddLogMessage(socketSend.RemoteEndPoint.ToString() + "------已经与服务器建立连接------");
+                    dictionSocket[clientKey] = socketSend; // 使用 clientKey 作为键
+                    AddLogMessage(clientKey + "已经与服务器建立连接");
+                    // 接收客户端发送的信息
+                    Thread thread2 = new Thread(ReceiveScoreRecords);
+                    thread2.IsBackground = true;
+                    thread2.Start(socketSend);
                 }
                 catch (SocketException ex)
                 {
@@ -72,6 +83,53 @@ namespace ThunderFighter_Server
                 }
             }
         }
+
+        // 接收分数记录
+        void ReceiveScoreRecords(Object o)
+        {
+            Socket socketSend = o as Socket;
+            while (true)
+            {
+                byte[] buffer = new byte[1024 * 1024 * 3];
+                int r = socketSend.Receive(buffer);
+                string strScore  = Encoding.Default.GetString(buffer, 0, r); 
+                int score = Convert.ToInt32(strScore);
+                // 把分数添加到集合中
+                dictionScore.Add(socketSend.RemoteEndPoint.ToString(), score);
+                // 排序
+                Compare();
+            }
+        }
+
+        // 排序函数
+        void Compare()
+        {
+            List<KeyValuePair<string, int>> list = dictionScore.OrderByDescending(n => n.Value).ToList();
+            for (int i = 0; i < list.Count; i++)
+            {
+                string clientKey = list[i].Key;
+                // 确保字典中存在客户端的键
+                if (dictionSocket.ContainsKey(clientKey))
+                {
+                    string result = "您是本次飞机大战中的第" + (i + 1) + "名\n您的总成绩是" + list[i].Value;
+                    byte[] buffer = Encoding.Default.GetBytes(result);
+                    List<byte> listByte = new List<byte>();
+                    listByte.Add(2);
+                    listByte.AddRange(buffer);
+                    byte[] newBuffer = listByte.ToArray();
+
+                    // 向客户端发送排名和成绩
+                    dictionSocket[clientKey].Send(newBuffer);
+                    Console.WriteLine(result);
+                }
+                else
+                {
+                    // 若找不到客户端，记录日志信息
+                    AddLogMessage("无法找到客户端 " + clientKey + " 的 Socket，跳过发送信息。");
+                }
+            }
+        }
+
 
 
         // 添加日志信息
@@ -94,7 +152,7 @@ namespace ThunderFighter_Server
         {
             byte[] buffer = new byte[1];
             buffer[0] = 1;
-            foreach(KeyValuePair<string, Socket> kv in dictionScoket)
+            foreach(KeyValuePair<string, Socket> kv in dictionSocket)
             {
                 kv.Value.Send(buffer);
             }

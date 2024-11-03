@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\klklklk\\source\\repos\\GamePlane\\ThunderFighter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C06B7403-65CB-4A54-A6F2-4B176A358C97}|ThunderFighter.csproj|c:\\users\\klklklk\\source\\repos\\gameplane\\thunderfighter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C06B7403-65CB-4A54-A6F2-4B176A358C97}|ThunderFighter.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C06B7403-65CB-4A54-A6F2-4B176A358C97}|ThunderFighter.csproj|c:\\users\\klklklk\\source\\repos\\gameplane\\thunderfighter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C06B7403-65CB-4A54-A6F2-4B176A358C97}|ThunderFighter.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -14,7 +10,23 @@
       "AbsoluteMoniker": "D:0:0:{4DD3E25F-0419-460E-AABD-8F564897B2EB}|..\\ThunderFighter_Server\\ThunderFighter_Server.csproj|c:\\users\\klklklk\\source\\repos\\gameplane\\thunderfighter_server\\consolewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C06B7403-65CB-4A54-A6F2-4B176A358C97}|ThunderFighter.csproj|c:\\users\\klklklk\\source\\repos\\gameplane\\thunderfighter\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C06B7403-65CB-4A54-A6F2-4B176A358C97}|ThunderFighter.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C06B7403-65CB-4A54-A6F2-4B176A358C97}|ThunderFighter.csproj|c:\\users\\klklklk\\source\\repos\\gameplane\\thunderfighter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C06B7403-65CB-4A54-A6F2-4B176A358C97}|ThunderFighter.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4DD3E25F-0419-460E-AABD-8F564897B2EB}|..\\ThunderFighter_Server\\ThunderFighter_Server.csproj|c:\\users\\klklklk\\source\\repos\\gameplane\\thunderfighter_server\\consolewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C06B7403-65CB-4A54-A6F2-4B176A358C97}|ThunderFighter.csproj|c:\\users\\klklklk\\source\\repos\\gameplane\\thunderfighter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C06B7403-65CB-4A54-A6F2-4B176A358C97}|ThunderFighter.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C06B7403-65CB-4A54-A6F2-4B176A358C97}|ThunderFighter.csproj|c:\\users\\klklklk\\source\\repos\\gameplane\\thunderfighter\\thunderfighter.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{C06B7403-65CB-4A54-A6F2-4B176A358C97}|ThunderFighter.csproj|solutionrelative:thunderfighter.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4DD3E25F-0419-460E-AABD-8F564897B2EB}|..\\ThunderFighter_Server\\ThunderFighter_Server.csproj|c:\\users\\klklklk\\source\\repos\\gameplane\\thunderfighter_server\\consolewindow.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -28,9 +40,6 @@
       "RelativeMoniker": "D:0:0:{C06B7403-65CB-4A54-A6F2-4B176A358C97}|ThunderFighter.csproj|solutionrelative:gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DD3E25F-0419-460E-AABD-8F564897B2EB}|..\\ThunderFighter_Server\\ThunderFighter_Server.csproj|c:\\users\\klklklk\\source\\repos\\gameplane\\thunderfighter_server\\thunderfighter_server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4DD3E25F-0419-460E-AABD-8F564897B2EB}|..\\ThunderFighter_Server\\ThunderFighter_Server.csproj|c:\\users\\klklklk\\source\\repos\\gameplane\\thunderfighter_server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -41,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 346,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -65,71 +74,71 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\klklklk\\source\\repos\\GamePlane\\ThunderFighter\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\klklklk\\source\\repos\\GamePlane\\ThunderFighter\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T07:24:27.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "SingleObject.cs",
-              "DocumentMoniker": "C:\\Users\\klklklk\\source\\repos\\GamePlane\\ThunderFighter\\SingleObject.cs",
-              "RelativeDocumentMoniker": "SingleObject.cs",
-              "ToolTip": "C:\\Users\\klklklk\\source\\repos\\GamePlane\\ThunderFighter\\SingleObject.cs",
-              "RelativeToolTip": "SingleObject.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAgwG4AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T15:41:00.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ConsoleWindow.cs",
-              "DocumentMoniker": "C:\\Users\\klklklk\\source\\repos\\GamePlane\\ThunderFighter_Server\\ConsoleWindow.cs",
-              "RelativeDocumentMoniker": "..\\ThunderFighter_Server\\ConsoleWindow.cs",
-              "ToolTip": "C:\\Users\\klklklk\\source\\repos\\GamePlane\\ThunderFighter_Server\\ConsoleWindow.cs",
-              "RelativeToolTip": "..\\ThunderFighter_Server\\ConsoleWindow.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAswEEAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T15:07:12.171Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\klklklk\\source\\repos\\GamePlane\\ThunderFighter\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\klklklk\\source\\repos\\GamePlane\\ThunderFighter\\Form1.cs*",
-              "RelativeToolTip": "Form1.cs*",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAhwHMAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T15:04:50.465Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Form1.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "C:\\Users\\klklklk\\source\\repos\\GamePlane\\ThunderFighter\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\klklklk\\source\\repos\\GamePlane\\ThunderFighter\\Form1.cs [\u8BBE\u8BA1]*",
-              "RelativeToolTip": "Form1.cs [\u8BBE\u8BA1]*",
+              "ToolTip": "C:\\Users\\klklklk\\source\\repos\\GamePlane\\ThunderFighter\\Form1.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "Form1.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T14:54:18.082Z",
               "EditorCaption": " [\u8BBE\u8BA1]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ConsoleWindow.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\klklklk\\Source\\Repos\\GamePlane\\ThunderFighter_Server\\ConsoleWindow.Designer.cs",
-              "RelativeDocumentMoniker": "..\\ThunderFighter_Server\\ConsoleWindow.Designer.cs",
-              "ToolTip": "C:\\Users\\klklklk\\Source\\Repos\\GamePlane\\ThunderFighter_Server\\ConsoleWindow.Designer.cs",
-              "RelativeToolTip": "..\\ThunderFighter_Server\\ConsoleWindow.Designer.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAQwCwAAAAmAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\klklklk\\source\\repos\\GamePlane\\ThunderFighter\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\klklklk\\source\\repos\\GamePlane\\ThunderFighter\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAswJ0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T15:58:44.827Z",
+              "WhenOpened": "2024-11-02T15:04:50.465Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\klklklk\\Source\\Repos\\GamePlane\\ThunderFighter\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\klklklk\\Source\\Repos\\GamePlane\\ThunderFighter\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T07:36:00.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConsoleWindow.cs",
+              "DocumentMoniker": "C:\\Users\\klklklk\\source\\repos\\GamePlane\\ThunderFighter_Server\\ConsoleWindow.cs",
+              "RelativeDocumentMoniker": "..\\ThunderFighter_Server\\ConsoleWindow.cs",
+              "ToolTip": "C:\\Users\\klklklk\\source\\repos\\GamePlane\\ThunderFighter_Server\\ConsoleWindow.cs",
+              "RelativeToolTip": "..\\ThunderFighter_Server\\ConsoleWindow.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAswHEAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T15:07:12.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ConsoleWindow.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "C:\\Users\\klklklk\\source\\repos\\GamePlane\\ThunderFighter_Server\\ConsoleWindow.cs",
               "RelativeDocumentMoniker": "..\\ThunderFighter_Server\\ConsoleWindow.cs",
@@ -142,6 +151,43 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "ThunderFighter",
+              "DocumentMoniker": "C:\\Users\\klklklk\\Source\\Repos\\GamePlane\\ThunderFighter\\ThunderFighter.csproj",
+              "RelativeDocumentMoniker": "ThunderFighter.csproj",
+              "ToolTip": "C:\\Users\\klklklk\\Source\\Repos\\GamePlane\\ThunderFighter\\ThunderFighter.csproj",
+              "RelativeToolTip": "ThunderFighter.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-03T07:56:49.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SingleObject.cs",
+              "DocumentMoniker": "C:\\Users\\klklklk\\source\\repos\\GamePlane\\ThunderFighter\\SingleObject.cs",
+              "RelativeDocumentMoniker": "SingleObject.cs",
+              "ToolTip": "C:\\Users\\klklklk\\source\\repos\\GamePlane\\ThunderFighter\\SingleObject.cs",
+              "RelativeToolTip": "SingleObject.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAgwG4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T15:41:00.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConsoleWindow.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\klklklk\\source\\repos\\GamePlane\\ThunderFighter_Server\\ConsoleWindow.Designer.cs",
+              "RelativeDocumentMoniker": "..\\ThunderFighter_Server\\ConsoleWindow.Designer.cs",
+              "ToolTip": "C:\\Users\\klklklk\\source\\repos\\GamePlane\\ThunderFighter_Server\\ConsoleWindow.Designer.cs",
+              "RelativeToolTip": "..\\ThunderFighter_Server\\ConsoleWindow.Designer.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAUwCwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T15:58:44.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "GameObject.cs",
               "DocumentMoniker": "C:\\Users\\klklklk\\source\\repos\\GamePlane\\ThunderFighter\\GameObject.cs",
               "RelativeDocumentMoniker": "GameObject.cs",
@@ -149,12 +195,11 @@
               "RelativeToolTip": "GameObject.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T15:40:52.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T15:40:52.244Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\klklklk\\source\\repos\\GamePlane\\ThunderFighter_Server\\Program.cs",
               "RelativeDocumentMoniker": "..\\ThunderFighter_Server\\Program.cs",
@@ -162,21 +207,7 @@
               "RelativeToolTip": "..\\ThunderFighter_Server\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvw0AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T14:55:07.441Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ThunderFighter_Server",
-              "DocumentMoniker": "C:\\Users\\klklklk\\Source\\Repos\\GamePlane\\ThunderFighter_Server\\ThunderFighter_Server.csproj",
-              "RelativeDocumentMoniker": "..\\ThunderFighter_Server\\ThunderFighter_Server.csproj",
-              "ToolTip": "C:\\Users\\klklklk\\Source\\Repos\\GamePlane\\ThunderFighter_Server\\ThunderFighter_Server.csproj",
-              "RelativeToolTip": "..\\ThunderFighter_Server\\ThunderFighter_Server.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-02T14:49:13.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T14:55:07.441Z"
             }
           ]
         },

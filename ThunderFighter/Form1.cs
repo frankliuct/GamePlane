@@ -1,5 +1,6 @@
 using System.Net.Sockets;
 using System.Net;
+using System.Text;
 
 namespace ThunderFighter
 {
@@ -8,7 +9,7 @@ namespace ThunderFighter
         public Form1()
         {
             InitializeComponent();
-           
+
         }
         Random r = new Random();
         private void InitialGame()
@@ -27,6 +28,9 @@ namespace ThunderFighter
         }
 
         bool isStart = false; //标记游戏是否开始
+        int playTime = 0; // 游戏运行时间
+        string result = string.Empty; // 记录客户端结果
+        bool isPaintResult = false; //是否绘制结果
 
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
@@ -35,6 +39,9 @@ namespace ThunderFighter
             {
                 //绘制各种游戏对象
                 //背景，玩家飞机，子弹...
+                ipAddrTexBox.Hide();
+                portTextBox.Hide();
+                startGameBt.Hide();
                 SingleObject.GetSingle().DrawGameObject(e.Graphics);
             }
 
@@ -42,6 +49,12 @@ namespace ThunderFighter
             //绘制游戏的分数
             e.Graphics.DrawString(s, new Font("微软雅黑", 20, FontStyle.Bold), Brushes.Red,
                 new Point(0, 0));
+
+            if (isPaintResult)
+            {
+                //绘制结果
+                e.Graphics.DrawString(result, new Font("宋体", 20, FontStyle.Bold), Brushes.Red, new Point(0, 200));
+            }
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -92,19 +105,27 @@ namespace ThunderFighter
         // 客户端连接服务器，开始游戏
         private void startGameBt_Click(object sender, EventArgs e)
         {
-            // 创建Socket
-            socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-            // 获取IP地址和端口号
-            IPAddress ip = IPAddress.Parse(ipAddrTexBox.Text);
-            // 端口号
-            IPEndPoint point = new IPEndPoint(ip, int.Parse(portTextBox.Text));
-            // 连接到服务器
-            socket.Connect(point);
+            try
+            {
+                // 创建Socket
+                socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+                // 获取IP地址和端口号
+                IPAddress ip = IPAddress.Parse(ipAddrTexBox.Text);
+                // 端口号
+                IPEndPoint point = new IPEndPoint(ip, int.Parse(portTextBox.Text));
+                // 连接到服务器
+                socket.Connect(point);
+                Console.WriteLine ("成功连接到服务器");
 
-            // 接收开始游戏的消息
-            Thread thread = new Thread(ReciveStartFlag);
-            thread.IsBackground = true; 
-            thread.Start();
+                // 接收开始游戏的消息
+                Thread thread = new Thread(ReciveStartFlag);
+                thread.IsBackground = true;
+                thread.Start();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("连接服务器时发生错误: " + ex.Message);
+            }
         }
 
         // 不停接收开始游戏的消息
@@ -113,14 +134,36 @@ namespace ThunderFighter
             while (true)
             {
                 byte[] buffer = new byte[1024 * 1024 * 5];
-                int flag = socket.Receive(buffer);
+                int r = socket.Receive(buffer);
                 if (buffer[0] == 1)
                 {
                     // 设置开始标志
                     isStart = true;
                 }
+                else if (buffer[0] == 2)
+                {
+                    result = Encoding.Default.GetString(buffer, 1, r - 1);
+                    // 把结果显示到客户端
+                    isPaintResult = true;
+                }
             }
         }
 
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            if(isStart)
+            {
+                playTime++;
+                Console.WriteLine("计时开始");
+                if (playTime == 10)
+                {
+                    // 将分数发送给服务器
+                    byte[] buffer = Encoding.Default.GetBytes(SingleObject.GetSingle().Score.ToString());
+                    socket.Send(buffer);
+                    Console.WriteLine("分数已发送");
+                    isStart =false; // 计时结束
+                }
+            }
+        }
     }
 }

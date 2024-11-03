@@ -33,6 +33,7 @@
             startGameBt = new Button();
             portTextBox = new TextBox();
             ipAddrTexBox = new TextBox();
+            timer2 = new System.Windows.Forms.Timer(components);
             SuspendLayout();
             // 
             // timer1
@@ -55,7 +56,7 @@
             // portTextBox
             // 
             portTextBox.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            portTextBox.Location = new Point(252, 59);
+            portTextBox.Location = new Point(239, 77);
             portTextBox.Name = "portTextBox";
             portTextBox.Size = new Size(100, 28);
             portTextBox.TabIndex = 4;
@@ -64,11 +65,17 @@
             // ipAddrTexBox
             // 
             ipAddrTexBox.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            ipAddrTexBox.Location = new Point(45, 59);
+            ipAddrTexBox.Location = new Point(12, 77);
             ipAddrTexBox.Name = "ipAddrTexBox";
             ipAddrTexBox.Size = new Size(201, 28);
             ipAddrTexBox.TabIndex = 3;
             ipAddrTexBox.Text = "127.0.0.1";
+            // 
+            // timer2
+            // 
+            timer2.Enabled = true;
+            timer2.Interval = 1000;
+            timer2.Tick += timer2_Tick;
             // 
             // Form1
             // 
@@ -98,5 +105,6 @@
         private Button startGameBt;
         private TextBox portTextBox;
         private TextBox ipAddrTexBox;
+        private System.Windows.Forms.Timer timer2;
     }
 }
